@@ -1,0 +1,115 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}nav, header, footer, .content{
+	max-width: 92%;
+	margin: auto;
+}* {
+	margin:0px;
+}#header, .lateral1 {
+	font-family:Verdana, Helvetica, sans-serif;
+}ul, ol {
+	list-style:none;
+}.nav > li {
+	float:left;
+}.nav li a {
+	background-color:#060707;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 161px;
+	display:block;
+}.nav li a:hover {
+	background-color:#434343;
+}.nav li ul {
+	display:none;
+	position:absolute;
+}.nav li:hover > ul {
+	display:block;
+}.content{
+	margin-top: 83px;
+	height: 800px;
+}.lateral{
+	display: inline-block;
+	height: 100%;
+	width: 28%;
+	border-right: 2px solid #b1bcc1;
+}.subcontent{
+	float: right;
+	height: 100%;
+	width: 70%;
+}.lateral1{
+	height: 50%;
+	margin-right: 10px;
+}.lateral2{
+	height: 50%;
+}h1{
+	text-align: center;
+	color:  #c5240e;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size: 45px;
+	padding-top: 20px;
+	padding-right: 10px;
+}h2{
+	text-align: center;
+	color: #060707;
+	padding-bottom: 20px; 
+}h3{
+	text-align: center;
+	color: #060707;
+	padding-bottom: 20px;
+}h6{
+	text-align: center;
+	color:  #060707;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size: 8px;
+}.sublateral1{
+	padding-right: 55px;
+	padding-top: 20px;
+}.sublateral1 > li {
+	float:left;
+}.sublateral1 li a {
+	background-color:#060707;
+	color:#fff;
+	text-decoration:none;
+	padding:15px 100px;
+	display:block;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}.sublateral1 li a:hover {
+	background-color:#434343;
+}.sublateral1 li:hover > ul {
+	display:block;
+}footer{
+	margin-top: 50px;
+}.div1{
+	height: 25%;
+	width: 100%;
+}.div2{
+	padding-top: 20px;
+	height: 35%;
+	width: 100%;
+}.div3{
+	height: 30%;
+	width: 100%;
+}.div4{
+	height: 100%;
+	width: 34%;
+	display: inline-block;	
+}.div5{
+	height: 100%;
+	width: 65%;
+	float: right;
+}.div6{
+	padding-top: 20px;
+	height: 10%;
+	width: 100%;
+}.div7{
+	height: 65%;
+	width: 100%;
+}.div2, .text{
+	color:      #44434b;
+	font-family:Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+	padding-right: 10px;
+}
